@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <marquee behavior="scroll" direction="left" style="background-color: #ffffffb0; color: rgb(70, 70, 70); padding: 10px; width: 90%; max-width: 800px; margin: 0 auto 20px; display: block; font-weight: bold; border-radius: 5px;">
+            Semangat Cok... Kebutuhanmu akeh😢
+        </marquee>
+        
+        <h1>.: Kata-Kata Hari Ini :.</h1>
+
+        <div class="quote-box">
+            <select id="quote-category">
+                <option value="biasa">Kata Kata Biasa</option>
+                <option value="bio">Kata Kata Bio</option>
+                <option value="link">Kata Kata Link</option>
+            </select>
+            <button id="generate-quote">Generate</button>
+        </div>
+
+        <textarea id="quote" rows="4" cols="50" readonly>Pilih kategori dan klik tombol Generate untuk mendapatkan kutipan!</textarea>
+
+        <button id="copy-quote">Copy Kutipan</button>
+
+    </div>
+
+    <footer>
+        <p>Created With ❤️ by Ken_tood</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
